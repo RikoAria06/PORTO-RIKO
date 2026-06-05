@@ -14,9 +14,9 @@
 
         .container {
             max-width: 800px;
-            background-color: white;
             margin: auto;
-            padding: 30px;
+            background: white;
+            padding: 25px;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
@@ -27,56 +27,85 @@
         }
 
         h2 {
-            color: #0077cc;
-            border-bottom: 2px solid #0077cc;
+            color: #0066cc;
+            border-bottom: 2px solid #0066cc;
             padding-bottom: 5px;
         }
 
-        p, li {
-            font-size: 16px;
-            line-height: 1.6;
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        td {
+            padding: 8px;
+            vertical-align: top;
+        }
+
+        .label {
+            font-weight: bold;
+            width: 200px;
         }
 
         ul {
-            padding-left: 20px;
-        }
-
-        .footer {
-            text-align: center;
-            margin-top: 20px;
-            color: gray;
+            margin-top: 5px;
         }
     </style>
 </head>
 <body>
 
     <div class="container">
-        <h1>Portofolio Pribadi</h1>
+        <h1>PORTOFOLIO PRIBADI</h1>
 
-        <h2>Data Diri</h2>
-        <p><strong>Nama:</strong> Riko Arianto</p>
-        <p><strong>Tempat, Tanggal Lahir:</strong> Bandung, 1 Januari 2008</p>
-        <p><strong>Pendidikan Terakhir:</strong> SMK Teknik Komputer dan Jaringan (TKJ)</p>
+        <h2>DATA PRIBADI</h2>
+        <table>
+            <tr>
+                <td class="label">Nama</td>
+                <td>: ....................................</td>
+            </tr>
+            <tr>
+                <td class="label">Tempat, Tanggal Lahir</td>
+                <td>: ....................................</td>
+            </tr>
+            <tr>
+                <td class="label">Jenis Kelamin</td>
+                <td>: ....................................</td>
+            </tr>
+            <tr>
+                <td class="label">Agama</td>
+                <td>: ....................................</td>
+            </tr>
+            <tr>
+                <td class="label">Tinggi Badan</td>
+                <td>: ....................................</td>
+            </tr>
+            <tr>
+                <td class="label">Berat Badan</td>
+                <td>: ....................................</td>
+            </tr>
+            <tr>
+                <td class="label">Alamat</td>
+                <td>: ....................................</td>
+            </tr>
+        </table>
 
-        <h2>Keahlian Khusus</h2>
+        <h2>DATA PENDIDIKAN</h2>
         <ul>
-            <li>Pemrograman Dasar (Python, HTML, CSS)</li>
-            <li>Perakitan dan Troubleshooting Komputer</li>
-            <li>Administrasi Jaringan Komputer</li>
-            <li>Pengelolaan Sistem Operasi Windows dan Linux</li>
+            <li><strong>Sekolah Dasar:</strong> SDN CIBUBUR 05</li>
+            <li><strong>Sekolah Menengah Pertama:</strong> SMPN 103 JAKARTA</li>
+            <li><strong>Sekolah Menengah Atas:</strong> SMA PRESTASI PRIMA</li>
         </ul>
 
-        <h2>Kemampuan di Bidang Ilmu Komputer</h2>
-        <p>
-            Memiliki kemampuan dalam memahami konsep dasar ilmu komputer,
-            pemrograman, jaringan komputer, pengembangan website sederhana,
-            serta mampu menyelesaikan permasalahan teknis pada perangkat keras
-            maupun perangkat lunak.
-        </p>
+        <h2>KEMAMPUAN</h2>
+        <ul>
+            <li><strong>Informasi Teknologi:</strong> Microsoft Office, Python, Visual Studio Code</li>
+            <li><strong>Bahasa:</strong> Bahasa Indonesia (Aktif), English (Pasif)</li>
+        </ul>
 
-        <div class="footer">
-            <p>&copy; 2026 Portofolio Pribadi</p>
-        </div>
+        <h2>PENGALAMAN</h2>
+        <ul>
+            <li>Fresh Graduate</li>
+        </ul>
     </div>
 
 </body>
